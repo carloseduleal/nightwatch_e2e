@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="reports.CEP"
+    errors="0" failures="0" hostname="" id="" package="reports" skipped="0"
+    tests="1" time="8.539" timestamp="Fri, 09 Mar 2018 16:55:03 GMT">
+  
+    <testcase name="Generating CEP reports" classname="reports.CEP" time="8.539" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

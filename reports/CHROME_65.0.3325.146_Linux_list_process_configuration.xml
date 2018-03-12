@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="list_process_configuration"
+    errors="0" failures="0" hostname="" id="" package="list_process_configuration" skipped="0"
+    tests="2" time="44.05" timestamp="Sat, 10 Mar 2018 16:16:04 GMT">
+  
+    <testcase name="Creates new configuration process" classname="list_process_configuration" time="25.07" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Creates new configuration" classname="list_process_configuration" time="18.99" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

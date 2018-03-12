@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="reports.cep"
+    errors="0" failures="0" hostname="" id="" package="reports" skipped="0"
+    tests="2" time="8.777" timestamp="Mon, 12 Mar 2018 12:35:45 GMT">
+  
+    <testcase name="Generating CEP Report (letter CUSUM)" classname="reports.cep" time="4.152" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Generating CEP Report (letter X)" classname="reports.cep" time="4.625" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
