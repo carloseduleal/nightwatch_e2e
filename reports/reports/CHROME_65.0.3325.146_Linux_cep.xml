@@ -5,9 +5,9 @@
 
   <testsuite name="reports.cep"
     errors="0" failures="0" hostname="" id="" package="reports" skipped="0"
-    tests="2" time="8.777" timestamp="Mon, 12 Mar 2018 12:35:45 GMT">
+    tests="2" time="8.791" timestamp="Thu, 22 Mar 2018 12:50:17 GMT">
   
-    <testcase name="Generating CEP Report (letter CUSUM)" classname="reports.cep" time="4.152" assertions="10">
+    <testcase name="Generating CEP Report (letter CUSUM)" classname="reports.cep" time="4.325" assertions="10">
 
     
 
@@ -30,7 +30,7 @@
     
     </testcase>
   
-    <testcase name="Generating CEP Report (letter X)" classname="reports.cep" time="4.625" assertions="15">
+    <testcase name="Generating CEP Report (letter X)" classname="reports.cep" time="4.466" assertions="15">
 
     
 
@@ -64,6 +64,119 @@
     </testcase>
   
 
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#class&#34; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:43:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#productive_areay&#34; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:44:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#productive_areax&#34; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:45:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#period&#34; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:46:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#process_code&#34; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:47:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#parametery&#34; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:48:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#parameterx&#34; using: css selector
+    at Page.setValue (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:49:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#main &gt; form &gt; fieldset &gt; legend&#34; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:52:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#main &gt; form &gt; fieldset &gt; legend&#34; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:53:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+ERROR: Unable to locate element: &#34;#main &gt; form &gt; fieldset &gt; div &gt; input:nth-child(2)&#34; using: css selector
+    at Page.click (/usr/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:117:25)
+    at Object.Generating Analysis and Correlation Report (/home/carlosbaptistella/prysmian_e2e/tests/reports/analysis_correlation.js:54:8)
+    at Module.call (/usr/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/lib/node_modules/nightwatch/node_modules/q/q.js:604:44
+    at runSingle (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    </system-err>
   
 
   

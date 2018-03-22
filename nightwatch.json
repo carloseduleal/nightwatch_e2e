@@ -13,7 +13,6 @@
     "port" : 4444,
     "cli_args" : {
       "webdriver.chrome.driver" : "drivers/chromedriver",
-      "webdriver.ie.driver" : "drivers/IEDriverServer.exe",
       "webdriver.gecko.driver" : "",
       "webdriver.edge.driver" : ""
     }
@@ -30,7 +29,9 @@
         "path" : ""
       },
       "desiredCapabilities": {
-        "browserName": "ie"      }
+        "browserName": "chrome",
+        "marionette": true
+      }
     },
 
     "chrome" : {
@@ -39,9 +40,9 @@
       }
     },
 
-    "ie" : {
+    "edge" : {
       "desiredCapabilities": {
-        "browserName": "ie"
+        "browserName": "MicrosoftEdge"
       }
     }
   }
